@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.ui.MainActivity">
+<!--    <data>-->
+<!--        <variable-->
+<!--            name = "viewModel"-->
+<!--            type = "com.example.myapplication.ExcerciseViewModel">-->
+<!--            -->
+<!--        </variable>-->
+
+<!--    </data>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editTextValue"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:focusable="auto"/>
+
+        <TextView
+            android:id="@+id/textViewValue"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Here will display the string" />
+
+        <Button
+            android:id="@+id/buttonValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Data"
+            android:layout_marginTop="100dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
+</layout>
+    <!--            android:onClick="@{() -> viewmodel.saveString}"-->
